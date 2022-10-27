@@ -20,4 +20,4 @@ sed -i 's/192.168.1.1/192.168.168.1/g' package/base-files/files/bin/config_gener
 sed -i 's/$1$V4UetPzk$CYXluq4wUazHjmCDBCqXF./$1$FwDEzdFK$Wphi65kvz9GxtDviRqy1A0/g' ./package/lean/default-settings/files/zzz-default-settings
 
 # 4.修改版本号
-sed -i "s/OpenWrt /CG build $(TZ=UTC-8 date "+%Y.%m.%d") @ 果壳壳 /g" package/lean/default-settings/files/zzz-default-settings
+sed -i "s/OpenWrt /GK.2 build $(TZ=UTC-8 date "+%Y.%m.%d") @ 果壳壳 /g" package/lean/default-settings/files/zzz-default-settings
